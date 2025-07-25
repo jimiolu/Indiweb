@@ -24,7 +24,7 @@ const FoundersNote = () => {
         <div className="mb-8">
           <h2 className="text-2xl md:text-3xl font-semibold leading-tight tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-basecolor to-white">
             Building a product? <br />
-            <span className="text-gray-400 text-2xl">
+            <span className="text-gray-400 text-2xl mt-2">
               It shouldn&apos;t feel this hard.
             </span>
           </h2>
@@ -40,11 +40,6 @@ const FoundersNote = () => {
             you&apos;ve tried freelancers, agencies, or even brought on a dev or
             two yourself.
           </p>
-          <p>
-            Still deadlines slip. Slack threads go quiet. And your product is
-            stuck in development hell.{" "}
-            <strong>I know the feeling. I&apos;ve lived it.</strong>
-          </p>
 
           {/* Hidden Content */}
           <div
@@ -53,6 +48,11 @@ const FoundersNote = () => {
             }`}
           >
             <div className="overflow-hidden space-y-6 mt-2">
+              <p>
+                Still deadlines slip. Slack threads go quiet. And your product
+                is stuck in development hell.{" "}
+                <strong>I know the feeling. I&apos;ve lived it.</strong>
+              </p>
               <p>
                 At <strong>Indisis</strong>, we started this studio because
                 we&apos;ve been on the other side as founders, builders, and

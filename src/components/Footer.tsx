@@ -31,18 +31,18 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4">Company</h3>
           <ul className="space-y-3 text-gray-400 text-sm">
             <li>
-              <Link href="/about" className="hover:text-white">
-                About
+              <Link href="#portfolio" className="hover:text-white">
+                Portfolio
               </Link>
             </li>
             <li>
-              <Link href="/services" className="hover:text-white">
+              <Link href="#services" className="hover:text-white">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="/work" className="hover:text-white">
-                Work
+              <Link href="#case-studies" className="hover:text-white">
+                Case Studies
               </Link>
             </li>
             <li>
