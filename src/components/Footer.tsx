@@ -1,7 +1,8 @@
 import {
-  IconBrandGithub,
-  IconBrandLinkedin,
-  IconBrandTwitter,
+  IconBrandGithubFilled,
+  IconBrandInstagramFilled,
+  IconBrandLinkedinFilled,
+  IconBrandTwitterFilled,
 } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -53,7 +54,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-white">
+              <Link href="https://indisis.fillout.com/business" target="_blank" className="hover:text-white">
                 Contact
               </Link>
             </li>
@@ -63,7 +64,7 @@ export default function Footer() {
         {/* Social Links */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Connect</h3>
-          <ul className="flex gap-5 text-xl text-gray-400">
+          <ul className="flex gap-3 text-xl text-gray-400">
             <li>
               <a
                 href="https://twitter.com/indisis"
@@ -71,7 +72,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
-                <IconBrandTwitter fill="currentColor" />
+                <IconBrandTwitterFilled />
               </a>
             </li>
             <li>
@@ -81,7 +82,17 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
-                <IconBrandLinkedin />
+                <IconBrandLinkedinFilled />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com/indisishq"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white"
+              >
+                <IconBrandInstagramFilled />
               </a>
             </li>
             <li>
@@ -91,7 +102,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
-                <IconBrandGithub fill="currentColor" />
+                <IconBrandGithubFilled />
               </a>
             </li>
           </ul>

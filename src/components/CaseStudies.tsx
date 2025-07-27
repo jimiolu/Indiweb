@@ -7,21 +7,27 @@ import { useState } from "react";
 const caseStudies = [
   {
     name: "Tankee",
-    image: "/projects/kleos.png",
-    topics: "100 TOPICS",
-    featured: true,
+    image:
+      "https://res.cloudinary.com/da7fhquzl/image/upload/v1753602469/cld-sample-3.jpg",
+    topics: "Brand",
+    featured: false,
+    Link: "#",
   },
   {
     name: "Cosmo",
-    image: "/projects/kleos.png",
-    topics: "",
-    featured: false,
+    image:
+      "https://res.cloudinary.com/da7fhquzl/image/upload/v1753602468/samples/man-portrait.jpg",
+    topics: "Fintech",
+    featured: true,
+    Link: "#",
   },
   {
-    name: "PayWith",
-    image: "/projects/kleos.png",
-    topics: "",
+    name: "Erics",
+    image:
+      "https://res.cloudinary.com/da7fhquzl/image/upload/v1753602469/main-sample.png",
+    topics: "App",
     featured: false,
+    Link: "#",
   },
 ];
 

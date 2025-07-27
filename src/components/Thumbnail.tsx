@@ -31,7 +31,7 @@ export default function Thumbnail() {
         ) : (
           <div className="relative w-full h-full bg-black">
             <Image
-              src="/projects/kleos.png"
+              src="https://res.cloudinary.com/da7fhquzl/image/upload/v1753602460/samples/people/kitchen-bar.jpg"
               alt="Indisis Video Thumbnail"
               fill
               className="object-cover"

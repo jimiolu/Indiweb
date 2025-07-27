@@ -15,36 +15,36 @@ interface Project {
 
 const projects = [
   {
-    title: "Launching a Web Application With a Rapid Action Team",
+    title: "Launching a Web Application for Africa Dataset Community and Collaborations",
     category: "Application Engineering",
-    imageUrl: "/projects/kleos.png",
+    imageUrl: "https://res.cloudinary.com/da7fhquzl/image/upload/v1753607084/project-1_ovxvgp.png",
     description:
-      "A dashboard platform to support operations for vet clinics, breeders, and administrators.",
-    url: "/projects/rapid-app-launch",
+      "A community platform to support locally sourced African Datasets",
+    url: "hudle.vercel.app",
   },
   {
-    title: "Expanding ML Framework for Revenue Growth",
-    category: "Artificial Intelligence",
-    imageUrl: "/projects/kleos.png",
+    title: "Modern Chat Application for Everyday Chat with Media Upload",
+    category: "Application Engineering",
+    imageUrl: "https://res.cloudinary.com/da7fhquzl/image/upload/v1753634537/kleos_jmgjpo.png",
     description:
-      "Integrated advanced ML pipelines to increase forecasting precision and drive growth.",
-    url: "/projects/ml-revenue-growth",
+      "Integrated advanced real-time communication tool with soket.io, media upload, and file sharing.",
+    url: "https://kleosapp.onrender.com/",
   },
   {
-    title: "Elevating Cloud Security Score to 95% in 180 Days",
-    category: "Cloud Engineering",
-    imageUrl: "/projects/kleos.png",
+    title: "Elevating School Management System with Analytic Dashboard",
+    category: "Application Engineering",
+    imageUrl: "https://res.cloudinary.com/da7fhquzl/image/upload/v1753634849/risto_w8hlnu.png",
     description:
-      "Audited and transformed cloud architecture to meet top security benchmarks.",
-    url: "/projects/cloud-security-score",
+      "Audited and transformed a legacy school management system into a modern dashboard.",
+    url: "https://risto-school.vercel.app/",
   },
   {
-    title: 'Building a "Liquid Data Platform"',
-    category: "Artificial Intelligence",
-    imageUrl: "/projects/kleos.png",
+    title: 'Scalable Website for a Technology Company',
+    category: "Web Development",
+    imageUrl: "https://res.cloudinary.com/da7fhquzl/image/upload/v1753636346/antlas_fp1l9y.png",
     description:
-      "Created a real-time analytics system with flexible data architecture and visualization.",
-    url: "/projects/liquid-data-platform",
+      "Created a real-time website for a technology company.",
+    url: "https://antlas.co",
   },
   {
     title: "Revamping CMS for Scale",

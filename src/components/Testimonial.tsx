@@ -8,8 +8,9 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     name: "Adaeze O.",
-    role: "Founder, FemTech Africa",
-    avatar: "/images/founder-avatar.jpeg",
+    role: "Founder, Clafiya",
+    avatar:
+      "https://res.cloudinary.com/da7fhquzl/image/upload/v1753602469/main-sample.png",
     companyLogo: "/brands/clafiya.png",
     rating: 5,
     quote:
@@ -17,8 +18,8 @@ const testimonials = [
   },
   {
     name: "Daniel K.",
-    role: "CEO, Payloop",
-    avatar: "/images/founder-avatar.jpeg",
+    role: "CEO, Brandtech",
+    avatar: "https://res.cloudinary.com/da7fhquzl/image/upload/v1753602467/samples/smile.jpg",
     companyLogo: "/brands/brandfetch.svg",
     rating: 4,
     quote:
@@ -26,8 +27,8 @@ const testimonials = [
   },
   {
     name: "Maya N.",
-    role: "Product Lead, MediqAI",
-    avatar: "/images/founder-avatar.jpeg",
+    role: "Product Lead, Geegpay",
+    avatar: "https://res.cloudinary.com/da7fhquzl/image/upload/v1753602460/samples/people/kitchen-bar.jpg",
     companyLogo: "/brands/geeg.png",
     rating: 5,
     quote:
@@ -35,8 +36,8 @@ const testimonials = [
   },
   {
     name: "Samuel E.",
-    role: "CTO, Credvia",
-    avatar: "/images/founder-avatar.jpeg",
+    role: "CTO, Slack",
+    avatar: "https://res.cloudinary.com/da7fhquzl/image/upload/v1753602461/samples/people/smiling-man.jpg",
     companyLogo: "/brands/slack.png",
     rating: 5,
     quote:
@@ -87,7 +88,7 @@ const Testimonial = () => {
                       alt={item.name}
                       width={48}
                       height={48}
-                      className="rounded-full object-cover border border-gray-600"
+                      className="rounded-full size-12 object-cover border border-gray-600"
                     />
                     <div>
                       <p className="font-semibold text-white text-sm">
