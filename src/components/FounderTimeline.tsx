@@ -76,7 +76,11 @@ export default function FounderTimeline() {
             ● Connect with real human today
           </p>
 
-          <Link href="/contact" className={`mt-6 ${buttonSecondary}`}>
+          <Link
+            href="https://indisis.fillout.com/business"
+            target="_blank"
+            className={`mt-6 ${buttonSecondary}`}
+          >
             <span>Hire elite devs today</span>
             <MoveRight size={16} />
           </Link>

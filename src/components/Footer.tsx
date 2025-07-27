@@ -13,13 +13,20 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[1.5fr_1fr_1fr] gap-10">
         {/* Branding & CTA */}
         <div>
-          <Image src="/logo/logo.svg" alt="Moniepoint Logo" width={100} height={100} className="mb-6 w-32" />
+          <Image
+            src="/logo/logo.svg"
+            alt="Moniepoint Logo"
+            width={100}
+            height={100}
+            className="mb-6 w-32"
+          />
           <p className="text-gray-400 mb-6 max-w-sm">
             Building legendary products for fast-moving teams. Fast, reliable,
             scalable.
           </p>
           <Link
-            href="/contact"
+            href="https://indisis.fillout.com/business"
+            target="_blank"
             className={buttonSecondary}
           >
             Start a project →

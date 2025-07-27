@@ -22,9 +22,9 @@ const FoundersNote = () => {
 
         {/* Section Header */}
         <div className="mb-8">
-          <h2 className="text-2xl md:text-3xl font-semibold leading-tight tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-basecolor to-white">
+          <h2 className="text-2xl md:text-3xl font-semibold leading-tight tracking-tight bg-clip-text text-basecolor">
             Building a product? <br />
-            <span className="text-gray-400 text-2xl mt-2">
+            <span className="text-gray-400 text-2xl mt-3">
               It shouldn&apos;t feel this hard.
             </span>
           </h2>
@@ -129,7 +129,11 @@ const FoundersNote = () => {
 
           {/* CTA */}
           <div className="mt-10">
-            <Link href="#contact" className={buttonSecondary}>
+            <Link
+              href="https://indisis.fillout.com/business"
+              target="_blank"
+              className={buttonSecondary}
+            >
               <span>Hire elite dev team</span>
               <MoveRight size={16} />
             </Link>

@@ -28,7 +28,8 @@ export default function CallToAction() {
         </motion.p>
 
         <Link
-          href="https://calendly.com/aceternity/30min"
+          href="https://indisis.fillout.com/business"
+          target="_blank"
           className="bg-basecolor hover:bg-basecolor/90 transition-all text-primary font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-lg hover:scale-105 focus:outline-none"
         >
           🚀 Hire elite devs now

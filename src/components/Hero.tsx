@@ -67,7 +67,8 @@ const Hero = () => {
           className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
         >
           <Link
-            href="/contact"
+            href="https://indisis.fillout.com/business"
+            target="_blank"
             className={buttonPrimary}
           >
             <span>Hiring devs? Let&apos;s talk</span>

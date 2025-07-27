@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/resizable-navbar";
 import Home from "@/page";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 const Layout = () => {
   const navItems = [
@@ -44,6 +45,8 @@ const Layout = () => {
             <div className="flex items-center gap-4">
               <NavbarButton
                 variant="primary"
+                href="https://indisis.fillout.com/business"
+                target="_blank"
                 className="bg-basecolor rounded-full text-primary"
               >
                 Let&apos;s Get Started
@@ -86,6 +89,8 @@ const Layout = () => {
                 <NavbarButton
                   onClick={() => setIsMobileMenuOpen(false)}
                   variant="primary"
+                  href="https://indisis.fillout.com/business"
+                  target="_blank"
                   className="w-full bg-basecolor"
                 >
                   Let&apos;s Get Started
